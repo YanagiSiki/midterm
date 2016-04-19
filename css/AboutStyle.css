@@ -112,6 +112,28 @@ body{
   background-color: #F8AB6C;
   background-size: 100% auto;
 }
+.div-2-1{
+  width: 980px;
+  height: 500px;
+  margin: 100px 150px;
+
+}
+.div-2-1-1{
+  width: 490px;
+  height: 500px;
+
+}
+.div-2-1-1 img{
+  width: 490px;
+  height: 500px;
+}
+.div-2-1-2{
+  width: 490px;
+  height: 500px;
+}
+.div-2-1-2 p{
+  margin-left: 20px;
+}
 
 .div-3{
   width: 1280px;
