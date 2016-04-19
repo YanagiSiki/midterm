@@ -77,13 +77,23 @@ $(document).ready(function(){
 		div_image1.html(title);
 
 		// Fade in overlay
-		div_image1.stop().fadeIn(800);
+		//div_image1.stop().fadeIn(800);
+		div_image1.stop().css('opacity', 0)
+  		.fadeIn(50)
+  		.animate({ opacity: 1 , right: 0}
+
+			);
 	},function(){
 		// Get the overlay div
 		var div_image1 = $(this).children('.div_image1');
 
 		// Fade out overlay
-		div_image1.stop().fadeOut(500);
+		//div_image1.stop().fadeOut(500);
+		div_image1.stop().css('opacity', 1)
+  		.fadeOut(50)
+  		.animate({ opacity: 0 , right: '30px'}
+			);
+		//div_image1.css('opacity', 0).css('right', '30px');
 	});
 
 	$('.box_images2').hover(function(){
@@ -99,13 +109,21 @@ $(document).ready(function(){
 		div_image1.html(title);
 
 		// Fade in overlay
-		div_image1.stop().fadeIn(800);
+		//div_image1.stop().fadeIn(800);
+		div_image1.stop().css('opacity', 0)
+  		.fadeIn(50)
+  		.animate({ opacity: 1 , left: 0}
+			);
 	},function(){
 		// Get the overlay div
 		var div_image1 = $(this).children('.div_image2');
 
 		// Fade out overlay
-		div_image1.stop().fadeOut(500);
+		//div_image1.stop().fadeOut(500);
+		div_image1.stop().css('opacity', 1)
+  		.fadeOut(50)
+  		.animate({ opacity: 0 , left: '30px'}
+			);
 	});
 
 
@@ -122,13 +140,21 @@ $(document).ready(function(){
 		div_image1.html(title);
 
 		// Fade in overlay
-		div_image1.stop().fadeIn(800);
+		//div_image1.stop().fadeIn(800);
+		div_image1.stop().css('opacity', 0)
+  		.fadeIn(50)
+  		.animate({ opacity: 1 , right: '0px'}
+			);
 	},function(){
 		// Get the overlay div
 		var div_image1 = $(this).children('.div_image3');
 
 		// Fade out overlay
-		div_image1.stop().fadeOut(500);
+		//div_image1.stop().fadeOut(500);
+		div_image1.stop().css('opacity', 1)
+  		.fadeOut(50)
+  		.animate({ opacity: 0 , right: '30px'}
+			);
 	});
 
 	$('.box_images4').hover(function(){
@@ -144,13 +170,21 @@ $(document).ready(function(){
 		div_image1.html(title);
 
 		// Fade in overlay
-		div_image1.stop().fadeIn(800);
+		//div_image1.stop().fadeIn(800);
+		div_image1.stop().css('opacity', 0)
+  		.fadeIn(50)
+  		.animate({ opacity: 1 , left: '0px'}
+			);
 	},function(){
 		// Get the overlay div
 		var div_image1 = $(this).children('.div_image4');
 
 		// Fade out overlay
-		div_image1.stop().fadeOut(500);
+		//div_image1.stop().fadeOut(500);
+		div_image1.stop().css('opacity', 1)
+  		.fadeOut(50)
+  		.animate({ opacity: 0 , left: '30px'}
+			);
 	});
 
 
