@@ -138,13 +138,14 @@ body{
 .div-2-1-2 p{
   margin: 0px auto;
   /* new add begin*/
-  margin-top: 45px;
+  margin-top: 35px;
   margin-bottom: 45px;
   margin-left: 50px;
   line-height: 1em;
   font-size: 20px;
-  font-family: monospace;
-  color : rgb(17, 9, 160);
+  font-family:  Microsoft JhengHei;
+  font-weight: bolder;
+  color : rgb(0, 0, 0);
   /*new add  end*/
 }
 
