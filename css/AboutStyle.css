@@ -135,39 +135,74 @@ body{
   margin-left: 20px;
 }
 
+
+
 .div-3{
   width: 1280px;
   height: 280px;
   background-color: #FAC090;
 }
-
 .div-3-1{
-  width: 455px;
-  height: 280px;
-}
-.images5{
+  width: 900px;
+  height: 220px;
+  margin:0px auto;
   margin-top: 30px;
-  margin-left: 150px;
-  width: 305px;
-  height: 215px;
 }
-.div-3-2{
-  width: 825px;
-  height: 280px;
+.div-3-1-1{
+  width: 300px;
+  height: 220px;
+  padding: 0px;
+  margin: 0px;
+}
+.div-3-1-1 img{
+  float: right;
+  width: 220px;
+  height: 220px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 100%;
+}
+.div-3-1-2{
+  width: 420px;
+  height: 220px;
+  padding: 0px 90px;
   text-align: center;
 }
-.div-3-2-1{
-  margin-top: 50px;
-  color: #00000;
-  font-size: 32px;
-}
-.div-3-2-2{
-  width: 450px;
-  margin: 0 auto;
-  margin-top: 20px;
-  color: #00000;
+.input-1{
+  margin-top: 10px;
+  width: 400px;
+  height: 30px;
   font-size: 16px;
 }
+.input-2{
+  width: 400px;
+  height: 120px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-top: 0px;
+}
+.div-3-1-3{
+  width: 70px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #000000;
+  font-size: 16px;
+  background-color: #E46C0A;
+  line-height: 30px;
+  border: 2px solid;
+  border-radius: 25px;
+  text-decoration: none;
+  float: right;
+}
+.div-3-1-3:hover{
+  box-shadow: 0 3px 6px 0px rgba(0,0,0,0.32);
+}
+
+
+
+
 .div-4{
   width: 1280px;
   height: 90px;
