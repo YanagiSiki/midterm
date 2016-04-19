@@ -173,6 +173,7 @@ body{
 }
 
 .overlay{
+  border-radius: 10px;
 	display:none;
 	background:rgba(0, 0, 0, .30);
 	color:#fff;
