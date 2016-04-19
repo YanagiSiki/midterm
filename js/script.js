@@ -55,12 +55,6 @@ $(document).ready(function(){
 
 //
 
-	$('.myLink1').click(function(){
-    var body = $("body, html");
-		body.animate({
-			scrollTop: $('.div-2').offset().top
-		}, 1000);
-	});
 
   $('.myLink2').click(function(){
     var body = $("body, html");
@@ -160,10 +154,6 @@ $(document).ready(function(){
 	});
 
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
 	//以下設定計時器，讀取目前滾輪，微調div-2
 	$.fn.scrollStopped = function(callback) {
 	  var that = this, $this = $(that);
@@ -182,9 +172,4 @@ $(document).ready(function(){
 		}
 	});
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/master
->>>>>>> origin/master
 });
