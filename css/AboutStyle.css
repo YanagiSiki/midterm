@@ -121,19 +121,33 @@ body{
 .div-2-1-1{
   width: 490px;
   height: 500px;
-
 }
 .div-2-1-1 img{
   width: 490px;
   height: 500px;
+  /* new add begin*/
+  box-shadow: 10px 5px #b0b7bb;
+  /*rgb(244, 119, 53) 橘色 */
+  border-radius: 100px;
+  /*new add  end*/
 }
 .div-2-1-2{
   width: 490px;
   height: 500px;
 }
 .div-2-1-2 p{
-  margin-left: 20px;
+  margin: 0px auto;
+  /* new add begin*/
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 50px;
+  line-height: 1em;
+  font-size: 20px;
+  font-family: monospace;
+  color : rgb(17, 9, 160);
+  /*new add  end*/
 }
+
 
 
 

@@ -155,7 +155,7 @@ $(document).ready(function(){
 
 
 	//以下設定計時器，讀取目前滾輪，微調div-2
-	$.fn.scrollStopped = function(callback) {
+	/*$.fn.scrollStopped = function(callback) {
 	  var that = this, $this = $(that);
 	  $this.scroll(function(ev) {
 	    clearTimeout($this.data('scrollTimeout'));
@@ -171,5 +171,6 @@ $(document).ready(function(){
 			}, 200);
 		}
 	});
+	*/
 
 });
